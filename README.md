@@ -3,6 +3,8 @@
 An experimental firmware patch for the **Samsung HW-FM35/ZA** soundbar that makes
 USB playback start in Repeat Random mode.
 
+> **Use at your own risk.** This unofficial patch is provided as is, without any warranty. I accept no responsibility for hardware damage, an unusable device, data loss, or other harm resulting from its use. You are responsible for deciding whether to install it and for any consequences.
+
 **Reported working on one HW-FM35/ZA on October 18, 2026:** the first song stays
 the same, then following songs play randomly. The owner accepts that behavior.
 The first song is not randomized by this patch. Separate standby/AC-cycle and
