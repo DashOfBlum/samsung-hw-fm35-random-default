@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "name": "Samsung HW-FM35/ZA Random startup default",
+  "version": "1.0.0",
+  "tested_model": "HW-FM35/ZA",
+  "controller_version": "1004.1",
+  "backend_version": "1006.0",
+  "source_sha256": "16b67ede5d4419fe3c560b1880f86299686cb8f0f87dacf11a249573fa7c5737",
+  "target_sha256": "eb5ced460a7d9288528f0fb6cd0fb9d4cc75a1f7347d94cfa3610ae87ea28d72",
+  "firmware_filename": "HMS-F550WWB-1006.0.ROM",
+  "firmware_bytes": 2097152,
+  "reference_zlib": "1.2.13",
+  "segment": {
+    "macro": 42,
+    "destination": "0x3ba7c",
+    "rom_offset": "0x3a5d4",
+    "next_rom_offset": "0x83a3c",
+    "decoded_bytes": 578892
+  },
+  "instructions": [
+    {
+      "address": "0x877b4",
+      "before": "0xe0040002",
+      "after": "0xe0040007",
+      "reason": "Media initialization playback default: 2 -> 7"
+    },
+    {
+      "address": "0x98418",
+      "before": "0xe0060002",
+      "after": "0xe0060007",
+      "reason": "Internal playback default: 2 -> 7 (Random)"
+    },
+    {
+      "address": "0x98440",
+      "before": "0xe0044e0c",
+      "after": "0xe0040003",
+      "reason": "Load external default 3 into r2"
+    },
+    {
+      "address": "0x98454",
+      "before": "0x96447198",
+      "after": "0x964a7198",
+      "reason": "Preserve pointer initialization using identical r5 value"
+    },
+    {
+      "address": "0x9845c",
+      "before": "0x96406ee0",
+      "after": "0x96446ee0",
+      "reason": "External reported repeat default: 0 -> 3"
+    }
+  ],
+  "hardware_result": {
+    "date": "2026-10-18",
+    "source": "Owner report on one unit",
+    "first_song": "Fixed",
+    "following_songs": "Random",
+    "separate_standby_and_ac_cycle_tests_reported": false
+  }
+}

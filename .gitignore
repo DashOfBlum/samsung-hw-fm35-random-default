@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.ROM
+*.rom
+*.ssp
+*.bin
+*.zip
+patched/
+output/
+.venv/
